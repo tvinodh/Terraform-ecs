@@ -54,3 +54,4 @@ resource "aws_route_table_association" "rt-public-subnet" {
   route_table_id = aws_route_table.ecs-internet.id
 
 }
+
