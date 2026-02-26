@@ -29,3 +29,4 @@ variable "container_image" {
 variable "service_desired_count" {
   default = "1"
 }
+
