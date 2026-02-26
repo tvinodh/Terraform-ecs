@@ -12,6 +12,7 @@ resource "aws_lb" "main" {
   }
 }
 
+
 resource "aws_alb_target_group" "main" {
   name        = "${var.name}-tg"
   port        = 80
